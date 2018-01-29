@@ -1,0 +1,371 @@
+html{
+	text-rendering:auto;
+}
+body{
+	margin:0;
+	font-family:"Microsoft Yahei",sans-serif;
+	-webkit-font-smoothing:antialiased;
+	background:#e8e8e8;
+}
+a{
+	text-decoration:none;
+}
+.header{ /*原头部*/
+	display:none;
+}
+.leftColumn{ /*原左栏*/
+	display:none;
+}
+.bottom{ /*原底部*/
+	display:-webkit-flex;
+	flex-direction:column;
+	width:80%;
+	margin:4.9rem auto;
+}
+.rightColumn{ /*原右栏*/
+	width:100%;
+	order:1;
+	min-width:25rem;
+}
+.rightColumnLogin{/*登录*/
+    padding:1rem 0;
+    width:100%;
+    background:white;
+    border-radius:0.3rem;
+}
+.rightColumnLoginHead{
+	width:82.7%;
+	margin:0 auto;
+	font-weight:bold;
+	color:rgb(111,111,111);
+}
+.rightColumnLoginButton{
+	width:80%;
+	margin:1.5rem auto;
+}
+.rightColumnLoginButton>button{
+	width:100%;
+	height:2.5rem;
+	outline:none;
+	cursor:pointer;
+	border-radius:0.3rem;
+}
+.rightColumnLoginButton img{
+	vertical-align:middle;
+	width:1rem;
+}
+.rightColumnLoginButton span{
+	color:white;
+}
+button[title]{
+	margin-bottom:1rem;
+}
+button[target]{
+	box-shadow:0 0.3rem 0.3rem #CCC;
+}
+.rightColumnContainer{/*文章*/
+	width:100%;
+    min-width:12rem;
+    margin-top:1rem;
+    background:white;
+    border-radius:0.3rem;
+}
+.rightColumnContainerHead{
+	display:-webkit-flex;
+	padding-left:1rem;
+	align-items:center;
+	height:3rem;
+	border-bottom:1px solid hsla(0,0%,59%,.1);
+}
+.rightColumnContainerBottom{
+	padding:0.8rem 0;
+}
+.rightColumnContainerBottom>div{
+	width:95%;
+	margin:0 auto;
+}
+.rightColumnContainerBottom li{
+	display:inline-block;
+	width:49%;
+	list-style-type:none;
+}
+.rightColumnContainerBottom a{
+	display:inline-block;
+	padding:0.5rem 1rem;
+	color:rgb(111,111,111);
+	font-size:0.75rem;
+	text-decoration:none;
+	background:hsla(0,0%,59%,.1);
+	border-radius:0.8rem;
+}
+.rightColumnContainerBottom li:not([title]){
+     margin-bottom:0.7rem;
+}
+.centerColumn{
+	width:100%;
+	order:2;
+}
+.anotherHeader{/*响应式头部*/
+	/*display:none;*/
+	position:fixed;
+	top:0;
+	left:0;
+	right:0;
+	width:100%;
+	min-width:25rem;
+	height:3.8125rem;
+	background:white;
+	border-bottom:1px solid #CCC;
+}
+.anotherLogo{
+	float:left;
+	height:100%;
+}
+.anotherLogo img{
+	height:100%;
+}
+.anotherDrop{
+	float:left;
+	margin-left:1rem;
+	width:5rem;
+	height:100%;
+}
+.anotherTriangle{
+	display:inline-block;
+	margin-bottom:0.15rem;
+	width:0;
+	height:0;
+	border-top:0.3rem solid #007fff;
+	border-left:0.3rem solid transparent;
+	border-right:0.3rem solid transparent;
+}
+.anotherDrop ul{
+	position:absolute;
+	display:none;
+	margin-top:0;
+	padding:1rem 1rem;
+	border:1px solid #CCC;
+	background:white;
+	border-radius:0.3rem;
+}
+.anotherDrop li{
+	list-style-type:none;
+}
+.anotherDrop li[title]{
+	padding-bottom:0.3rem;
+}
+.anotherDrop a{
+	text-decoration:none;
+	color:#007fff;
+}
+.anotherDrop a:hover{
+	color:orange;
+}
+.anotherDrop:hover ul{
+	display:block;
+} 
+.anotherRightColumn{
+	display:-webkit-flex;
+	align-items:center;
+	margin-right:2rem;
+	float:right;
+	height:100%;
+	color:#007fff;
+}
+.anotherRightColumn a{
+	text-decoration:none;
+	color:#007fff;
+}
+.juejinBrowse{
+	margin:1rem 0;
+	width:100%;
+}
+.juejinBrowse img{
+	width:100%;
+}
+.aboutHead{
+	text-align:center;
+	font-size:0.75rem;
+	color:#909090;
+}
+.aboutIcon{
+	display:-webkit-flex;
+	margin-top:1rem;
+	padding-left:29%;
+}
+.aboutDrop{
+	display:none;
+	padding-top:1rem;
+	padding-bottom:1rem;
+	position:absolute;
+	width:6rem;
+	background:white;
+	border:1px solid #CCC;
+	border-radius:0.3rem;
+}
+.dr{
+	margin-left:0.8rem;
+}
+.dr:hover .aboutDrop{
+	display:block;
+}
+.aboutIcon img{
+	border-radius:0.3rem;
+}
+.bottomColumn1{
+	margin:0.8rem 0;
+	text-align:center;
+}
+.bottomColumn1>a{
+	font-size:0.75rem;
+	color:#909090;
+}
+.bottomColumn1>a:hover{
+	color:#007fff;
+}
+.centerColumn{
+	width:100%;
+	min-width:25rem;
+}
+.centerColumn>div{
+	background:white;
+}
+.centerColumnFirstColumn{
+	width:100%;
+	border-radius:5px;
+	margin-bottom:1rem;
+}
+.Head{
+	display:-webkit-flex;
+	justify-content:space-between;
+	align-items:center;
+	width:95%;
+	height:2.5rem;
+	margin:0 auto;
+	border-bottom:1px solid hsla(0,0%,59%,.1);
+}
+.Head a{
+	color:#007fff;
+}
+.Bottom{
+	width:95%;
+	margin:0 auto;
+}
+.Bottom>div{
+	padding:1rem 0;
+	display:-webkit-flex;
+	align-items:center;
+}
+.centerLeft{
+	width:6rem;
+}
+.centerRight{
+	display:-webkit-flex;
+	align-items:center;
+	width:75%;
+	height:100%;
+	margin-left:7%;
+}
+h4{
+	margin-top:0;
+	margin-bottom:0.3rem;
+	width:100%;
+}
+h4>a{
+	color:rgb(111,111,111);
+}
+.other{
+	display:-webkit-flex;
+	width:100%;
+}
+.other img{
+	width:1rem;
+}
+.other li{
+	display:-webkit-flex;
+	align-items:center;
+	list-style-type:none;
+	cursor:pointer;
+}
+.other li:hover{
+	background:#e8e8e8;
+}
+.other span{
+	color:#8a8a8a;
+}
+.other a{
+	color:#8a8a8a;
+}
+.drop{
+	display:none;
+	padding:0.3rem 0.4rem;
+	border:1px solid #CCC;
+	background:white;
+	border-radius:0.3125rem;
+}
+.list{
+	cursor:pointer;
+}
+.list:hover .drop{
+	position:absolute;
+	display:block;
+}
+.list:hover{
+	background:#e8e8e8;
+}
+.register{ /*注册*/
+    padding:0.5rem 0;
+    margin-bottom:1rem;
+    display:-webkit-flex;
+    justify-content:center;
+    align-items:center;
+    width:100%;
+    border-radius:0.3rem;
+}
+.registerContain{
+	display:-webkit-flex;
+	width:97%;
+	border:1px solid #007fff;
+}
+.registerContainLeft{
+	display:-webkit-flex;
+	justify-content:center;
+	align-items:center;
+	width:25%;
+	color:rgb(111,111,111);
+}
+.registerContainCenter{
+	display:-webkit-flex;
+	justify-content:center;
+	padding:2rem 0;
+	width:45%;
+	font-size:0.8rem;
+}
+.registerContainCenter span{
+	color:#007fff;
+}
+.registerContainCenter li{
+	font-size:0.7rem;
+	color:rgb(111,111,111);
+	padding:0.3rem 0;
+}
+.registerContainRight{
+	width:30%;
+	display:-webkit-flex;
+	justify-content:center;
+	align-items:center;
+}
+.registerButton{
+	width:50%;
+	padding-top:0.4rem;
+	padding-bottom:0.4rem;
+	border:1px solid #007fff;
+	background:white;
+	color:#007fff;
+	border-radius:0.3rem;
+	outline:none;
+	cursor:pointer;
+}
+.centerColumn div:empty{
+	display:none;
+}
