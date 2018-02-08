@@ -33,16 +33,13 @@ img{
 .container__header{
     
 }
-.container__header::before,.container__header::after{
+.container__header::before,.container__header::after,.container__header--rightColumn>ul::before,.container__header--rightColumn>ul::after{
 	content:"";
 	display:block;
 	clear:both;
 }
 .container__header--leftColumn{
 	float:left;
-}
-.container__header--rightColumn{
-	float:right;
 }
 .logo>a{
 	display:inline-block;
@@ -57,4 +54,17 @@ img{
 }
 .logo>a>span:nth-of-type(2){
 	color:white;
+}
+.container__header--rightColumn{
+	float:right;
+}
+.container__header--rightColumn li{
+	float:right;
+}
+.container__header--rightColumn a{
+	display:inline-block;
+}
+.container__header--rightColumn span{
+	display:inline-block;
+	padding:1.68rem 2rem;
 }
