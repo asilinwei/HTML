@@ -1,11 +1,10 @@
-body{
-	margin:0;
-	height:100%;
-	font-family:"Microsoft Yahei",sans-serif;
-}
-ul{
+*{
 	margin:0;
 	padding:0;
+}
+body{
+	height:100%;
+	font-family:"Microsoft Yahei",sans-serif;
 }
 li{
 	list-style-type:none;
@@ -67,4 +66,21 @@ img{
 .container__header--rightColumn span{
 	display:inline-block;
 	padding:1.68rem 2rem;
+}
+.container__header--rightColumn span:not([class="home"]){
+	color:white;
+}
+.container__main__header{
+	margin:7rem auto;
+	width:981px;
+	text-align:center;
+}
+.container__main__header>h1{
+	margin:0 auto;
+	width:617px;
+	font-size:3rem;
+	color:white;
+}
+.container__main__header>h1>span{
+	color:#EC005F;
 }
