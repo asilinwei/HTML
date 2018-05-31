@@ -77,10 +77,16 @@ img{
 }
 .container__main__header>h1{
 	margin:0 auto;
-	width:617px;
+	width:650px;
 	font-size:3rem;
 	color:white;
 }
 .container__main__header>h1>span{
 	color:#EC005F;
+}
+.container__main__header>p{
+	margin:10px auto;
+	width:650px;
+	font-weight:100;
+	color:white;
 }
