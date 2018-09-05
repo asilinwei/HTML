@@ -90,3 +90,8 @@ img{
 	font-weight:100;
 	color:white;
 }
+.container__main__header>a{
+	display:inline-block;
+	width:171px;
+	height:59px;
+}
