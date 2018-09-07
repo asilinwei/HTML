@@ -94,4 +94,8 @@ img{
 	display:inline-block;
 	width:171px;
 	height:59px;
+	line-height:59px;
+	font-weight:bold;
+	color:white;
+	background:#DD075D;
 }
